@@ -1,0 +1,50 @@
+nav{
+    text-align: center;
+    border: 5px solid;
+}
+.slidingphotos{
+    border: 5px solid blue;
+}
+.offers{
+    display: flex;
+    border: 5px solid;
+}
+.offers .offer1{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.offers .offer2{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.offers .offer3{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.offers .offer4{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.dishoptions{
+    border: 5px solid;
+}
+.Restaurents{
+    display: flex;
+    border: 5px solid;
+}
+.Restaurents .Restaurent1{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.Restaurents .Restaurent2{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.Restaurents .Restaurent3{
+    border: 2px solid;
+    border-radius: 100px;
+}
+.Restaurents .Restaurent4{
+    border: 2px solid;
+    border-radius: 100px;
+}
