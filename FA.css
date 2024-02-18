@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#bbbbbb ;
+}
 nav{
     text-align: center;
     border: 5px solid;
@@ -47,4 +58,178 @@ nav{
 .Restaurents .Restaurent4{
     border: 2px solid;
     border-radius: 100px;
+}
+
+
+
+
+
+/* Footer Css  by HC(Harsh Chauhan) 2210990377 */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: auto;
+    background-color: #7f4f24;
+}
+.footer-container{
+    
+    width: 100%;
+    padding: 70px 30px 20px;
+    
+}
+.logo-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+.logo{
+    width:78px ;
+    height:80px;
+    margin-right:4px;
+}
+.logo-name{
+    color: #bbbbbb;
+    font-size: 30px;
+    padding: 20px 3px ;
+    margin-left: 8px;
+}
+.follow-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 9px;
+}
+.follow-us{
+    font-weight: 800;
+    color:azure;
+    font-size: 24px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius:50px ;
+}
+.social-links a i{
+    font-size: 2em;
+    color:#582f0e;
+    opacity: 0.9;
+}
+.social-links a:hover{
+    background-color: black;
+    transition: 0.5s;
+    
+}
+.social-links a:hover i{
+    color:#582f0e;
+    transition: 0.5s;
+
+}
+.row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col h4{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 22px;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
+ul li a:hover{
+    color: white;
+    padding-left: 2px;
+}
+.footer-bottom{
+    background-color:#212529;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width:563px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+
+
+    }
+    .footer-col h4::before{
+        all: unset;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+@media(max-width:429px){
+    .footer-col{
+        width: 100%;
+        
+
+    }
+    .container{
+        width: 100%;
+
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+@media(max-width:280px){
+    .fotter-col{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;
+    }
 }
