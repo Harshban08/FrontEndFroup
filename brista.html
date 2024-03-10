@@ -9,7 +9,7 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -84,6 +84,38 @@ header nav ul{
 .nav-linkss li a:hover{
     color: #620807;
 }
+@media (max-width:600px) {
+    header{
+        padding: 1px;
+        
+    }
+    .logo-1{
+        height: 20px;
+        width: 20px;
+        /* padding-left: 2px; */
+
+    }
+    .nav-linkss{
+        font-size: 10px;
+    }
+    .nav-linkss li a{
+        font-size: 8px;
+        font-weight: 600;
+    }
+    header nav ul{
+        /* padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex; */
+        gap: 0.5px;
+    }
+    nav ul button{
+        font-size: 7px;
+    }
+    .logo-container{
+        align-items: center;
+    }
+}
 
 /* outlet item div start  */
 
@@ -103,6 +135,49 @@ header nav ul{
     /*font-family: "Roboto", sans-serif;*/
     font-weight: 600;
     font-style: normal;
+}
+@media (max-width:600px) {
+    div .wrap-container{
+        height: 100px;
+        width: 298px;
+        padding: 5px;
+        margin: 5px;
+
+    }
+    .wrap-container-image{
+        justify-content: center;
+        align-items: center;
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .wrap-container-text{
+        height: 85px;
+        width: 100px;
+    }
+    .wrap-img{
+        height:50px;
+        width: 50px;
+        border-radius: 10px;
+        object-fit: cover;
+
+    }
+    .add-itm-btn{
+        height: 20px;
+        width: 50px;
+        
+        font-size: 10px;
+    }
+    button{
+        align-items: center;
+    }
+    .wrap-name{
+        font-size: 13px;
+    }
+    .wraps{
+        font-size: 15px;
+    }
 }
 .light-meals{
     align-items: center;
@@ -134,17 +209,20 @@ header nav ul{
     width: 170px;
 }
 .wrap-img{
-    height:100px;
-    width: 120px;
+    height:85px;
+    width: 100px;
     border-radius: 10px;
     object-fit: cover;
 }
 .wrap-name{
     font-family: "Poppins", sans-serif;
+    text-align: center;
 }
 .add-itm-btn{
-    height: 30px;
-    width: 80px;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 60px;
     background-color: #ef233c;
     border-radius: 10px;
     color: white;
@@ -164,7 +242,7 @@ header nav ul{
 
     <header>
         <nav class="logo-container">
-            <img src="./foodhub-logo.png" alt="logo" class="logo-1">
+            <img src="./images/foodhub-logo.png" alt="logo" class="logo-1">
         </nav>
         <nav>
             <ul class="nav-linkss">
@@ -182,7 +260,7 @@ header nav ul{
     <!-- logo start -->
     
     <div class="logo">
-        <img src="./bg-barista-main.png"  class="logo1">
+        <img src="./images/bg-barista-main.png"  class="logo1">
     </div>
 
     <!-- logo end -->
@@ -201,7 +279,7 @@ header nav ul{
             <div class="wrap-container-main">
                 <div class="wrap-container">
                     <div class="wrap-container-img">
-                        <img src="./momos.png" alt="" class="wrap-img">
+                        <img src="./images/momos.png" alt="" class="wrap-img">
                     </div>
                     <div class="wrap-container-text">
                         <h4 class="wrap-name">Veg Momos</h4>
